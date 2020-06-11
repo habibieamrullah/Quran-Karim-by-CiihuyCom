@@ -6,4 +6,6 @@ If you have any question, feel free to contact me :D
 
 It's optimised for mobile view. Has language change feature, theme selection, and options for changing Arabic and translation text sizes.
 
+Available languages are: English, Bahasa Indonesia, Japanese and French
+
 Try it live here: https://ciihuy.com/qurankarim/
