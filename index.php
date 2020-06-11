@@ -333,6 +333,5 @@
 			localize();
 			applyStyle();
 		</script>
-		<script src="https://www.w3counter.com/tracker.js?id=118177"></script>
 	</body>
 </html>

@@ -149,7 +149,7 @@ function localizeSearchPage(){
 function setLang(){
 	var selectedLang = document.getElementById("languageOptions").options[document.getElementById("languageOptions").selectedIndex].value;
 	localStorage.setItem("lang", selectedLang);
-	window.location.href = "http://quranflexi.zofiakreasi.com/index.php?lang="+selectedLang;
+	window.location.href = "https://ciihuy.com/qurankarim/index.php?lang="+selectedLang;
 }
 
 function setLang2(x){
