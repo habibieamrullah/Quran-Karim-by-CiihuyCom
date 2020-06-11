@@ -1,0 +1,210 @@
+@font-face{
+	font-family:'lato';
+	src:url('lato.ttf');
+}
+
+@font-face{
+	font-family:'arabic';
+	src:url('quran.ttf');
+}
+
+body{
+	font-family: lato;
+	background-color: #f7f7f7;
+	margin-top: 70px;
+	padding: 10px;
+}
+
+.versenum{
+	width: 160px;
+	padding: 5px;
+	background-color: white;
+	border-radius: 25px;
+	display: block;
+	margin: auto;
+}
+
+.qurantext{
+	font-family: arabic;
+	font-size: 25px;
+}
+
+.translationtext{
+	font-size: 15px;
+}
+
+.menubtn{
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 10px;
+}
+
+.appicon{
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 10px;
+}
+
+.surahbar{
+	background-color: black;
+	height: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 8px;
+	font-size: 20px;
+	color: white;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.settitle{
+	text-align: center;
+	position: fixed;
+	padding-top: 18px;
+	font-size: 20px;
+	color: white;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.setpg{
+	background-color: black;
+	text-align: center;
+	padding: 20px;
+	padding-top: 70px;
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	overflow-y: auto;
+}
+
+.button-left{
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	width: 80px;
+	display: inline-block;
+	border: 2px solid white;
+	border-right: 1px solid white;
+	padding: 5px;
+}
+
+.button-left:active{
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	width: 80px;
+	display: inline-block;
+	border: 2px solid white;
+	border-right: 1px solid white;
+	padding: 5px;
+	background-color: white;
+	color: black;
+}
+
+.button-center{
+	width: 80px;
+	display: inline-block;
+	border: 2px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding: 5px;
+}
+
+.button-center:active{
+	width: 80px;
+	display: inline-block;
+	border: 2px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding: 5px;
+	background-color: white;
+	color: black;
+}
+
+.button-right{
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: 2px solid white;
+	border-left: 1px solid white;
+	display: inline-block;
+	width: 80px;
+	padding: 5px;
+}
+
+.button-right:active{
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: 2px solid white;
+	border-left: 1px solid white;
+	display: inline-block;
+	width: 80px;
+	padding: 5px;
+	background-color: white;
+	color: black;
+}
+
+.buttonPrev{
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 10px;
+}
+
+.buttonNext{
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding: 10px;
+}
+
+.surahbutton{
+	margin: 5px;
+	padding: 10px;
+	max-width: 450px;
+	display: inline-block;
+	text-align: center;
+	font-family: lato;
+	font-size: 14px;
+	border-radius: 10px;
+	background-color: white;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);	
+}
+
+.surahbutton:active{
+	color: white;
+	background-color: black;
+}
+
+button{
+	width: 150px;
+	display: block;
+	margin: auto;
+	border: 2px solid white;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+#previewBox{
+	width: 70%;
+	display: inline-block;
+	padding: 10px;
+	margin: auto;
+	border-radius: 15px;
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+}
